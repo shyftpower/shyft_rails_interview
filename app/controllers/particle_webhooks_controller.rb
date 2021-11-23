@@ -4,4 +4,8 @@ class ParticleWebhooksController < ApplicationController
   def hi_res_data
     puts params
   end
+
+  def check
+    render json: { you: 'did it!' }
+  end
 end
