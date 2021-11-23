@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+setup:
 
-Things you may want to cover:
+```sh
+git clone ...
+cd shyft_rails_interview
+bundle
 
-* Ruby version
+psql
+# postgres=# create database shyft_rails_interview_development;
+# postgres=# \q
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+cp .env.sample .env
+```
